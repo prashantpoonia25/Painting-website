@@ -1,0 +1,14 @@
+.container{
+    padding: 20px;
+    border: 30px #e8c14e ridge;
+    font: 50px;
+    font-style: italic;
+}
+.header1{
+    padding: 50px;
+    font-style: bold;
+    text-align: center;
+    background-image: linear-gradient(red, yellow);
+    font: size 100px;
+
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="shortcut icon" type="image/png" href="fav.png">
+    <style>
+        h1 {
+            background-color: #F2AA4CFF;
+            height: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1 style="background-image: linear-gradient(red, yellow); font: size 100px; text-align: center;padding: 30px;">
+            Form
+        </h1>
+    </div>
+    <div>
+        <form action="form.php">
+            <input type="text" placeholder="Full Name" id="name" name="name">
+            <br>
+            <br>
+            Email :
+            <input type="email" name="email" id="email">
+            <br>
+            <br>
+            <select name="gender" id="gender" form="genderform">
+                <option value="no-gender">Your Gender</option>
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+                <option value="other">Other</option>
+            </select>
+            <br>
+            <br>
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
